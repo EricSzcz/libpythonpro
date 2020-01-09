@@ -5,6 +5,8 @@ Nesse curso é ensinado como contribuir ccom projetos de código aberto
 
 Link para o curso [Python pro](https://www.python.pro.br/)
 
+[![Build Status](https://travis-ci.org/EricSzcz/libpythonpro.svg?branch=master)](https://travis-ci.org/EricSzcz/libpythonpro)
+
 Suportada versão 3 de python
 
 Para instalar:
