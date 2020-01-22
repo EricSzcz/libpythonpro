@@ -12,7 +12,6 @@ def test_criar_enviador_de_email():
     'destinatario',
     ['eric@gmail.com', 'foo@bar.com.br']
 )
-
 def test_remetente(destinatario):
     enviador = Enviador()
     resultado = enviador.enviar(
@@ -29,11 +28,10 @@ def test_remetente(destinatario):
     'destinatario',
     ['', 'foobar.com.br']
 )
-
 def test_remetente_invalido(destinatario):
     enviador = Enviador()
     with pytest.raises(EmailInvalido):
-        resultado = enviador.enviar(
+        enviador.enviar(
             destinatario,
             'luciano@python.pro.br',
             'Curso Python prod',
